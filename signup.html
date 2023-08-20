@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya</title>
+    <style>
+        body{
+           background-image: url("key.jpeg");
+           background-repeat: no-repeat;
+           background-size:100% 100%;
+        }
+       
+        form{
+            border-radius:2px;
+           padding:10px;
+            height:450px;
+            
+          
+        }
+        h2{ 
+            color:chocolate;
+            text-align:center;
+            margin-left:100px;
+            text-shadow: 4px 4px 4px black;
+        }
+        div{
+            border:2px solid grey;
+            background-color:aqua;
+            width:500px;
+            max-height:500px;
+            margin: 10px;
+            
+        }
+        div:hover{
+            background-color: pink;
+        }
+        
+        
+        
+    </style>
+
+</head>
+<body>
+    
+    <div>
+        
+        
+<h2>CREATE AN ACCOUNT.</h2>
+        <form action="/signupform.html">
+            <input type="text" name="fname" placeholder="Firstname" required>
+            <input type="text" name="mname" placeholder="Middlename" ><br><br>
+            <input type="text" name="lname" placeholder="Lastname" required><br><br>
+            <input type="date" name="date" placeholder="Enter ur DOB" required><br><br>
+            <input type="number" name="age" placeholder="Enter ur age" min="16"  step=1 required><br><br>
+            <input type="email" name="mail" placeholder="mailid" required><br><br>
+            <input type="contact" name="phno" placeholder="Mobile number"><br><br>
+            <label > GENDER</label><br>
+          
+            <input type="radio" id="male" name="gender" >
+            <label for="male">MALE</label>
+            <input type="radio" id="fmale" name="gender" >
+            <label for="fmale">FEMALE</label>
+            <input type="radio" id="OTHERS" name="gender" >
+            <label for="others">OTHERS</label><br><br>
+            <input type="checkbox" id="notify" name="n1" >
+            <label for="notify">SMS</label>
+            <input type="checkbox" id="notify" name="n2" >
+            <label for="NOTIFY">MAIL</label><br><br>
+            <label>TECHNICAL SKILLS</label><br><br>
+            <label for="range">JAVA</label>
+            <input type="range" name="ran" id="range"><br><br>
+            <input type="submit" values="SIGNUP">
+            <input type="reset" values="reset">
+        </form>
+    </div>
+</body>
+</html>

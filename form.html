@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login{
+            background-image:url("/divya/image.jpeg");
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+            margin:40px;
+            padding:20px;
+            border:1px solid black;
+        }
+        h1{
+            color:red;
+            font-style: italic;
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: 5px 5px 5px grey;
+        }
+        .submit{
+            margin-left: 50px;
+            
+        }
+        .signup{
+            
+            margin-left: 40px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>LOGIN</h1>
+    <div class="login">
+    <form action="/login.html">
+    <label for="userid">USERNAME</label>
+    <input type="text" name="uname" id="userid" required><br><br>
+    <label for="pass">PASSWORD</label>
+    <input type="password" name="pwd" id="pass" required><br><br> 
+    <div class="submit">
+    <input type="submit" value="LOGIN"></div><br>
+    </form>
+    
+
+<form action="/signup.html">
+    <div class="signup">
+        <input type="submit" value="SIGNUP"></div>
+
+    </form>
+    </div>
+</body>
+</html>
